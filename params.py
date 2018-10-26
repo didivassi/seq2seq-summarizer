@@ -43,7 +43,7 @@ class Params:
   rl_start_epoch: int = 1  # start RL at which epoch (later start can ensure a strong baseline)?
 
   # Data
-  embed_file: Optional[str] = 'data/.vector_cache/glove.6B.100d.txt'  # use pre-trained embeddings
+  embed_file: Optional[str] = 'data/glove.6B.100d.txt'  # use pre-trained embeddings
   data_path: str = 'data/cnndm.gz'
   val_data_path: Optional[str] = 'data/cnndm.val.gz'
   max_src_len: int = 400  # exclusive of special tokens such as EOS
